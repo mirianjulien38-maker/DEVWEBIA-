@@ -109,7 +109,8 @@ export async function deployToRender(params: RenderDeployParams): Promise<{ succ
         branch: 'main',
         ownerId: ownerId,
         envVars: [
-          { key: 'NPM_CONFIG_PRODUCTION', value: 'false' }
+          { key: 'NPM_CONFIG_PRODUCTION', value: 'false' },
+          { key: 'NODE_ENV', value: 'production' }
         ],
         serviceDetails: {
           env: 'node',
