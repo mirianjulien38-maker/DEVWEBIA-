@@ -1,0 +1,6 @@
+{
+  "name": "Salama",
+  "description": "Tongasoa! A welcoming gateway to Madagascar, featuring language guides, interactive cultural highlights, and custom app building tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
